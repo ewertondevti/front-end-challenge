@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+
+  .navigation {
+    margin-bottom: 20px;
+  }
+
+  .postContent {
+    @extend .content;
+
+    width: max-content;
+
+    .commentContent {
+      @extend .content;
+    }
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image {
+    width: 115px;
+    height: 115px;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}

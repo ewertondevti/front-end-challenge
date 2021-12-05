@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #001529;
+
+  .logoContent {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    white-space: normal;
+    margin-left: 15px;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+}
