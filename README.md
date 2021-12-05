@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Description
+
+This project is a front-end challenge made by Startup LetsGetsChecked.
+
+I created a blog-based website where the home page shows all the posts that have been made. Each post has the option to comment and click.
+When commenting, the comment will be persisted and will be shown when clicking on the post. When clicking on the post, it makes a redirect to the "detail" of the post where all the comments are also shown.
+Each comment can be replied to or edited. This consumes a simple API (suggested also by Startup LetsGetsChecked) called [json-server](https://github.com/typicode/json-server).
+
+I added a header where they show two options (Posts and About Me), a logo and a label with the project title as well as some styling using a css pre-renderer called Sass.
+
 ## Available Scripts
 
 In the project directory, you can run:
