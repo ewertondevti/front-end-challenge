@@ -12,6 +12,24 @@ Each comment can be replied to or edited. This consumes a simple REST API (provi
 
 I added a header where they show two options (Posts and About Me), a logo and a label with the project title as well as some styling using a css pre-renderer called Sass.
 
+## Getting started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/) v12 or higher
+
+- [REST API by Startup LetsGetsChecked](https://github.com/LetsGetChecked/developer-challenge-api)
+
+### Quick start
+
+#### 1. Run `npm install`
+
+This will install all dependencies (listed in `package.json`) required to run the project build.
+
+#### 2. Run `npm start` or `npm run start`
+
+`npm start` or `npm run start` will start the project build and can be accessed at `localhost:3000`.
+
 ## Available Scripts
 
 In the project directory, you can run:
